@@ -11,14 +11,18 @@ html{
 }
 
 .App{
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
+  /* display: grid; */
+  display: flex;
+  /* grid-template-columns: 350px 350px 350px; */
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .productList{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
   margin-top: 5rem;
 }
 
@@ -93,4 +97,12 @@ html{
 .productSales,
 .productTime{
   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px){
+  .App{
+    display: flex;
+    flex-direction: column;
+
+  }
 }
