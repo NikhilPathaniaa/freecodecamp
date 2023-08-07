@@ -27,5 +27,5 @@ export function Products(props) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
