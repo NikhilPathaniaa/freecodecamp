@@ -3,7 +3,10 @@ import contents from './content';
 
 export default function App() {
     return(
+        <>
+            <h1 className='main_heading'>Amazon</h1>
            <div className='App'>
+            
                {contents.map(contents => (
                    <Products 
                        key={contents.id}
@@ -16,5 +19,6 @@ export default function App() {
                    />
                ))}
            </div>
+        </>
     )
 }
