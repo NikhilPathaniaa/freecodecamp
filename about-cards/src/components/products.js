@@ -16,6 +16,14 @@ export function Products(props) {
                         <div className='productPrice'>${props.price}</div>
                         <div className='productSales'>{props.totalSales} unit solds</div>
                     </div>
+                    <div className='displayStack__2'>
+                        <div className='productRating'>
+                            {[...Array(props.rating)].map((index)=>(
+                                <FaStar id={index + 1} key={index} />
+                            ))} 
+                        </div>
+                        <div className='productTime'>{props.timeLeft} days left</div>
+                    </div>
                 </div>
         </div>
     );

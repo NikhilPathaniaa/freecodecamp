@@ -11,6 +11,11 @@ function App() {
         <Products
             Key={contents.id}
             image={contents.image}
+            name={contents.name}
+            price={contents.price}
+            totalSales={contents.totalSales}
+            timeLeft={contents.timeLeft}
+            rating={contents.rating}
         />
       ))}
     </div>
