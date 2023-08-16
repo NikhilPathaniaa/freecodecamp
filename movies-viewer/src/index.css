@@ -24,3 +24,17 @@ body{
   box-shadow: rgba(0, 0, 0, 0) -webkit-focus-ring-color none 0px
   0px 0px !important;;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+.card img {
+  width: 100%;
+}
