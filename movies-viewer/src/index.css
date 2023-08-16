@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  margin: 10;
+  padding: 10px;
+}
+.container{
+  margin: 0;
+  padding: 20px;
+  background-color:beige;
+  border-radius: 25px;
+  width: 44%;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.container img{
+  border-radius: 25px;
+  width: 17vw;
+  height: 38vh;
+}
+.container img:hover{
+  transform: scale(0.9);
+  transition: all ease .6s ;
+  box-shadow: rgba(0, 0, 0, 0) -webkit-focus-ring-color none 0px
+  0px 0px !important;;
+}
