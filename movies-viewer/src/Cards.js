@@ -1,9 +1,7 @@
-import React from 'react'
-
-export default function Cards(props) {
+export function Cards(props) {
   return (
     <div className="cards">
-        <div className='card'>
+        <div key={props.id} className='card'>
             <img src={props.imagesUrl} alt='...'/>
             <div className="info">
                 <h1>{props.name}</h1>
