@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <>  
+      <div className='App'>
           {Data.map(Data =>(
             <Cards
               key={Data.id}
@@ -12,6 +13,7 @@ function App() {
               description={Data.description}
             />
           ))}
+        </div>
     </>
   );
 }
